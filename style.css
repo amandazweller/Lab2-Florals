@@ -1,0 +1,73 @@
+*{
+	margin: 4px;
+	padding: 0%;
+	box-sizing: border-box;
+}
+header{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(daisy.jpeg);
+	background-position: bottom;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+.header-content{
+	margin-bottom: 150px;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+.header{
+	margin-bottom: 150px;
+	text-align: center;
+}
+.header-content h2{
+	font-size: 4vmin;
+	text-shadow: 1px 1px black;
+	color: azure;
+}
+.line{
+	width: 150px;
+	height: 4px;
+	background: rgb(142, 142, 248);
+	margin: 10px auto;
+	border-radius: 5px;
+}
+.header-content h1{
+	font-size: 7vmin;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.ctn{
+	padding: 8px 15px;
+	margin-top: 5px;
+	background: rgb(104, 104, 243);
+	border-radius: 30px;
+	color: whitesmoke;
+}
+.navbar{
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	justify-content: space-between;
+	padding: 20px;
+}
+ul{
+	list-style: none;
+}
+footer {
+	width: 100%;
+}
+.copyright {
+	margin: 5dp 5dp 5dp 5dp;
+	padding-left: 2%;
+}
+.spacer {
+	height: 3dp;
+	padding-top: 2%;
+}
